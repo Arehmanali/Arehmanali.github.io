@@ -49,7 +49,8 @@ p {
      padding-bottom:40px;
 }
 .text-justify {
-    text-align:center;
+    text-align:left;
+	line-height:normal;
 }
 /* ==========================================================================
    COLOR CODES
