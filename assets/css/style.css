@@ -83,7 +83,7 @@ p {
    ========================================================================== */
 
 #header-section {
-	background: url(../img/header.jpg) no-repeat center top;
+	/*background: url(../img/header.jpg) no-repeat center top;*/
 	margin-top: -20px;
 	padding-top:20px;
 	text-align:center;
@@ -98,6 +98,8 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+    margin: auto;
 }
 
 #header-section h1 {
@@ -215,7 +217,14 @@ color: #FFFFFF;
 #contact-section {
     background-color: #FAFAFA;
 }
-
+.contact-container{
+  font-size: 20px;
+  line-height: 0cm;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: rgb(22, 22, 22);
+  padding: 5px;
+}
 /* ==========================================================================
    SLIDESHOW SECTION
    ========================================================================== */
@@ -225,13 +234,6 @@ color: #FFFFFF;
    body {font-family: Verdana, sans-serif;}
    .mySlides {display: none;}
    img {vertical-align: middle;}
-   
-   /* Slideshow container */
-   .slideshow-container {
-     max-width: 1000px;
-     position: relative;
-     margin: auto;
-   }
    
    /* Caption text */
    .text {
@@ -271,9 +273,9 @@ color: #FFFFFF;
    /* Fading animation */
    .fade {
      -webkit-animation-name: fade;
-     -webkit-animation-duration: 1.5s;
+     -webkit-animation-duration: 0.5s;
      animation-name: fade;
-     animation-duration: 1.5s;
+     animation-duration: 0.5s;
    }
    
    @-webkit-keyframes fade {
