@@ -1,3 +1,4 @@
+
 /* ===========================================================
    GENERAL STYLES   
    ============================================================*/
@@ -38,7 +39,7 @@ a,a:hover {
 
 p {
     line-height: 30px;
-    margin-bottom: 23px;
+    margin-bottom: 2px;
 }
 
 .img-margin-product {
@@ -48,8 +49,9 @@ p {
      padding-bottom:40px;
 }
 .text-justify {
-    text-align:left;
-    line-height: normal;
+    text-align:justify;
+    line-height: 0.5cm;
+    
 }
 /* ==========================================================================
    COLOR CODES
@@ -82,7 +84,7 @@ p {
    ========================================================================== */
 
 #header-section {
-	/*background: url(../img/header.jpg) no-repeat center top;*/
+	background: url(../img/header.jpg) no-repeat center top;
 	margin-top: -20px;
 	padding-top:20px;
 	text-align:center;
@@ -150,13 +152,13 @@ p {
 
 .Javascript {width: 90%; background-color: #4CAF50;} /* Green */
 .php {width: 80%; background-color: #2196F3;} /* Blue */
-.Cplusplus{width: 90%; background-color: #f44336;} /* Red */
-.Csharp {width: 80%; background-color: #808080;} /* Dark Grey */
-.C{width: 70%; background-color: #5236f4;} /* dark blue*/
-.sql {width: 80%; background-color: #131111;} /* Dark Grey */
-.assembly{width: 70%; background-color: #d8f436;} /* Red */
-.ruby {width: 60%; background-color: brown;} /* Dark Grey */
-.htmlCss{width: 70%; background-color: burlywood;} /* Dark Grey */
+.cpp{width: 85%; background-color: #bbf436;} /* Red */
+.csharp {width: 75%; background-color: #808080;} /* Dark Grey */
+.c{width: 70%; background-color: #5236f4;} /* dark blue*/
+.sql {width: 70%; background-color: #5236f4;} /* Dark Grey */
+.assembly{width: 60%; background-color: #d8f436;} /* Red */
+.ruby {width: 60%; background-color:#d8f436;} /* Dark Grey */
+.htmlcss{width: 70%; background-color: burlywood;} /* Dark Grey */
 
 
 /*==========================================
@@ -217,12 +219,10 @@ color: #FFFFFF;
     background-color: #FAFAFA;
 }
 .contact-container{
-  font-size: 20px;
-  line-height: 0cm;
-  letter-spacing: 2px;
-  font-weight: bold;
-  color: rgb(22, 22, 22);
-  padding: 5px;
+  font-size: 18px;
+  line-height: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 /* ==========================================================================
    SLIDESHOW SECTION
